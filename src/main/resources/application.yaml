@@ -1,0 +1,25 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: prometheus, health, info, metrics
+  info:
+    build:
+      enabled: true
+    java:
+      enabled: true
+    env:
+      enabled: true
+  metrics:
+    data:
+      repository:
+        autotime:
+          enabled: true
+    enable:
+      jvm: true
+      process: true
+      system: true
+
+
+
+
