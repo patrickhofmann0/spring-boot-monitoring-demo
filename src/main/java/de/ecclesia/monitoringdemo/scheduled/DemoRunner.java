@@ -1,16 +1,13 @@
-package de.ecclesia.monitoringdemo.controller;
-
-import java.net.MalformedURLException;
-import java.net.URL;
+package de.ecclesia.monitoringdemo.scheduled;
 
 import io.micrometer.core.instrument.Counter;
-import io.micrometer.core.instrument.Gauge;
 import io.micrometer.core.instrument.MeterRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.actuate.autoconfigure.metrics.export.prometheus.PrometheusProperties;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
+
+import de.ecclesia.monitoringdemo.service.DemoService;
 
 @Component
 public class DemoRunner  {

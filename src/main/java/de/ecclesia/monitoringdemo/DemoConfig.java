@@ -1,4 +1,4 @@
-package de.ecclesia.monitoringdemo.controller;
+package de.ecclesia.monitoringdemo;
 
 import io.micrometer.core.aop.TimedAspect;
 import io.micrometer.core.instrument.Counter;

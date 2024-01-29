@@ -1,4 +1,4 @@
-package de.ecclesia.monitoringdemo.controller;
+package de.ecclesia.monitoringdemo.service;
 
 import java.util.Random;
 
